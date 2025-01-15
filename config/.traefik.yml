@@ -1,0 +1,9 @@
+displayName: "Wake On Request"
+type: middleware
+
+import: github.com/dominique57/wor_traefik
+
+summary: "WOR_traefik is the traefik plugin to be used with WOR"
+
+testData:
+  Foo: Bar

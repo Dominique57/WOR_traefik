@@ -1,0 +1,18 @@
+api:
+  dashboard: true
+  insecure: true
+
+experimental:
+  localPlugins:
+    dev:
+      moduleName: github.com/dominique57/wor_traefik
+
+entryPoints:
+  http:
+    address: ":8000"
+    forwardedHeaders:
+      insecure: true
+
+providers:
+  file:
+    filename: /wor/traefik/rules-wor.yml

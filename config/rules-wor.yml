@@ -19,4 +19,4 @@ http:
     wor:
       plugin:
         dev:
-          Foo: Bar
+          Foo: "Bar"
